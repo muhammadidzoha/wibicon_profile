@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  wibicon_profile:
+    build: .
+    ports:
+      - "8080:80"
+    restart: unless-stopped
