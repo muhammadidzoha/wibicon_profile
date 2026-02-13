@@ -194,7 +194,7 @@ const Hero = () => {
                 <img
                   src={client.logo}
                   alt={client.name}
-                  className="h-20 object-contain grayscale hover:grayscale-0 transition duration-300"
+                  className="h-10 lg:h-20 object-contain grayscale hover:grayscale-0 transition duration-300"
                 />
               </div>
             ))}
