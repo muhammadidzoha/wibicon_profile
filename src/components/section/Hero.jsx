@@ -21,14 +21,15 @@ import { Badge } from "../../components/ui/badge";
 import { companyInfo } from "@/data/companyData";
 import { stats } from "@/data/statsData";
 import Marquee from "react-fast-marquee";
-import inno from "@/assets/images/inno.jpeg";
-import adhibeton from "@/assets/images/adhibeton.jpeg";
+import inno from "@/assets/images/inno.png";
+import adhibeton from "@/assets/images/adhibeton.png";
 import aml from "@/assets/images/aml.png";
 import krakatau from "@/assets/images/krakatau.png";
-import mahugi from "@/assets/images/mahugi.jpeg";
+import mahugi from "@/assets/images/mahugi.png";
 import sharon from "@/assets/images/sharon.png";
 import sierra from "@/assets/images/sierra.png";
 import ss from "@/assets/images/ss.png";
+import bplks from "@/assets/images/bapelkes.png";
 
 const clients = [
   {
@@ -70,6 +71,11 @@ const clients = [
     id: 8,
     name: "Sinar Sari Sejati",
     logo: ss
+  },
+  {
+    id: 9,
+    name: "Bapelkes Krakatau Steel",
+    logo: bplks
   },
 ];
 
