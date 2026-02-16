@@ -46,11 +46,11 @@ docker compose up -d
 ```bash
 docker login
 docker pull muhammadidzoha/wibicon_profile
-docker run -d -p 8080:80 muhammadidzoha/wibicon_profile
 ```
 - Jalankan App dengan perintah:
 ```bash
-docker run -d -p 8080:80 muhammadidzoha/wibicon_profile
+docker run -d -p 8080:80 --name wibicon_profile muhammadidzoha/wibicon_profile
 ```
 - Buka app: http://localhost:8080/
+
 
